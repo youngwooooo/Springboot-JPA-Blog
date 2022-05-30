@@ -10,4 +10,9 @@ public class BlogControllerTest {
 	public String hello() {
 		return "<h1>hello spring boot</h1>";
 	}
+
+	@GetMapping("/hotfix")
+	public String hotfix(){
+		return "hotfix";
+	}
 }
